@@ -1,6 +1,7 @@
-body {
+body, html {
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
+    max-width: 100%;
 }
 
 .background{
@@ -13,7 +14,8 @@ h1 {
     font: 600 4vw 'Raleway', sans-serif;
     color: azure;
     text-shadow: 1px 2px #0000006b;
-    width: 100%;
+    
+    max-width: 100%;
 }
 
 

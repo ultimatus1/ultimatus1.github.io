@@ -1,7 +1,6 @@
 body {
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
-    text-align: center;
 }
 
 .background{
@@ -12,12 +11,9 @@ body {
 
 h1 {
     font: 600 4vw 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
+    color: azure;
+    text-shadow: 1px 2px #0000006b;
     width: 100%;
-    padding-bottom: 20%;
 }
 
 
@@ -63,7 +59,13 @@ button{
 }
 
 .nav-item, .nav-link{
+    color: rgba(240, 255, 255, 0.733) !important;
+    text-shadow: 1px 1.4px #00000057 !important;
+    font-size: 1.1rem !important;
+}
+
+.nav-item, .nav-link:hover{
     color: azure !important;
-    text-shadow: 2px 2px #0000006b !important;
+    text-shadow: 1px 1.4px #0000006b !important;
     font-size: 1.1rem !important;
 }
